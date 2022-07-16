@@ -1,0 +1,56 @@
+git init
+git status
+git add index.html or -A
+git status
+git commit
+i :wq
+
+or 
+
+git commit -m "Added files"
+git status
+
+touch contact.html   (create file)
+git commit
+git add -A
+
+
+
+git checkout contact.html    //Undo file and continue (For single file)
+git checkout -f   //To undo all file
+git log (see messages)
+git log -p -2 (see last 2 message)
+
+git diff (to see recent changes)
+
+git diff --staged (compare last data with data in stagging area)
+
+git commit -a -m "message"
+
+git rm --cached content.html (move file to untrack)
+
+git rm contact.html (delete file)
+
+
+
+.gitignore
+mylogs.log (ignore all file naming mylogs.log)
+/mylogs.log (ignore only the file which is in same folder as .gitignore)
+*.log (ignore all the file ending with .log)
+/file (ignore the file folder)
+
+
+create branch
+git branch feature1 (Create branch)
+git checkout feature1 (to switch branches)
+
+git merge feature1 (merge feature1 with master and this branch is in master branch or vice visa)
+
+git checkout -b feature2 (helps to create branch and enter automatically inside the feature2 branch)
+
+
+git remote add origin urlslink
+git remote (show remote)
+
+git push origin master
+

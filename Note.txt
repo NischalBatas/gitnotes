@@ -1,0 +1,37 @@
+1. VCS:
+	* It helps to track the history of a collection of files
+	* eg: If there are three files and they are store in a local to remote repository as Verison 1 then there is 		change in file 2 then this change is stored as Version 2 in repository  
+	
+2.  Centralized Version Control System
+	* It uses a central server to store all the files
+	* If central server crashes all data will be lost
+	* work directly in main/remote repository
+	* Eg: 
+
+3.  Distriburted Version Control System
+	* Stores backup of every files
+	* If server crashes the data willnot lost
+	* works on local repo then send to remote repo
+	* Eg: Git
+
+4. Git:
+	It is a version control system which helps to manage or track files and can be used by all developer who have access
+	* Track files/history
+	* Open Source
+	* backup
+	* Allow multiple developer to work together 
+	* Supports Non-linear development
+	* Scalable
+ 	* Support Collaboration
+	* Braching is easier
+	* Distributed Development
+
+5. Branch in Git
+	Branch in Git is used to keep your changes until they are ready and after complesation of your task you can merge to main branch
+
+	* git inti: Create repo
+	* git add: Add file to stagging area
+	* git commit: track the changes
+	* git status: show the current status of the file
+	* git push: to send files from local to remote repo
+	* git pull: to get files from remote to local repo 
